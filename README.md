@@ -1,5 +1,5 @@
 # leet-dec-challenge 
-[leetcode](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/)
+[leetcode](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/)  
 This repo will have all the problems of LeetCode December Challenge
 
 # About the challenge
