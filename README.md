@@ -1,6 +1,5 @@
 # leet-dec-challenge 
-[leetcode](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/)  
-This repo contains solution to the problems in LeetCode December Challenge.
+[leetcode](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/)
 
 # About the challenge
 This Challenge is beginner-friendly and available to both Premium and non-Premium users. It consists of 31 daily problems over the month of December. A problem is added here each day, and you have 24 hours to make a valid submission for it in order to be eligible for rewards.
