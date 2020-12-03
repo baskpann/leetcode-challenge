@@ -36,7 +36,7 @@ Solution solution = new Solution(head);
 // getRandom() should return either 1, 2, or 3 randomly. Each element should have equal probability of returning.
 solution.getRandom();
 ```
-## Day3
+## Day 3
 + Problem link [link](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3553/)
 + Given the root of a binary search tree, rearrange the tree in in-order so that the leftmost node in the tree is now the root of the tree, and every node has no left child and only one right child.
 + Example 1:  
@@ -45,7 +45,7 @@ solution.getRandom();
 Input: root = [5,3,6,2,4,null,8,1,null,null,null,7,9]
 Output: [1,null,2,null,3,null,4,null,5,null,6,null,7,null,8,null,9]
 ```
-+ Example 2:
++ Example 2:  
 ![day3_1](jpg/day3_1.jpg)
 ```
 Input: root = [5,1,7]
