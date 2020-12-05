@@ -12,6 +12,7 @@ This Challenge is beginner-friendly and available to both Premium and non-Premiu
 * Problem link [link](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3551/)
 * Given the root of a binary tree, return its maximum depth.
 * A binary tree's maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
+* Solution [link](SolutionDay1.java)
 * Example 1:
 
 ![day1](jpg/day1.jpg)
@@ -36,7 +37,7 @@ Output: 2
 
 * Problem link [link](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3552/)
 * Given a singly linked list, return a random node's value from the linked list. Each node must have the same probability of being chosen.
-
+* Solution [link](SolutionDay2.java)
 * Example:
 
 ```text
@@ -54,6 +55,7 @@ solution.getRandom();
 
 * Problem link [link](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3553/)
 * Given the root of a binary search tree, rearrange the tree in in-order so that the leftmost node in the tree is now the root of the tree, and every node has no left child and only one right child.
+* Solution [link](SolutionDay3.java)
 * Example 1:  
 
 ![day3_0](jpg/day3.jpg)
@@ -82,7 +84,7 @@ Output: [1,null,5,null,7]
 * Given two positive integers n and k.
 * A factor of an integer n is defined as an integer i where n % i == 0.
 * Consider a list of all factors of n sorted in ascending order, return the kth factor in this list or return -1 if n has less than k factors.
-
+* Solution [link](SolutionDay4.java)
 * Example 1:
 
 ```text
@@ -109,3 +111,29 @@ Explanation: Factors list is [1, 2, 4], there is only 3 factors. We should retur
 
 * Constraints:
   * 1 <= k <= n <= 1000
+
+## Day 5
+
+* Problem link [link](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3554/)
+* You have a long flowerbed in which some of the plots are planted, and some are not. However, flowers cannot be planted in adjacent plots.
+* Given an integer array flowerbed containing 0's and 1's, where 0 means empty and 1 means not empty, and an integer n, return if n new flowers can be planted in the flowerbed without violating the no-adjacent-flowers rule.
+* Solution [link](SolutionDay5.java)
+* Example 1:
+
+```text
+Input: flowerbed = [1,0,0,0,1], n = 1
+Output: true
+```
+
+* Example 2:
+
+```text
+Input: flowerbed = [1,0,0,0,1], n = 2
+Output: false
+```
+
+* Constraints:
+  * 1 <= flowerbed.length <= 2 * 104
+  * flowerbed[i] is 0 or 1.
+  * There are no two adjacent flowers in flowerbed.
+  * 0 <= n <= flowerbed.length
