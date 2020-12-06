@@ -1,4 +1,5 @@
 # LeetCode
 
 [leetcode](https://leetcode.com/)  
-This repo contains all the problems of LeetCode monthly challenges.
+LeetCode is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.  
+Check out my [profile](https://leetcode.com/baskpann/)
