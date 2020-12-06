@@ -154,9 +154,10 @@ struct Node {
 
 * Populate each next pointer to point to its next right node. If there is no next right node, the next pointer should be set to NULL.
 * Initially, all next pointers are set to NULL.
+* Solution link [link](SolutionDay6.java)
 * Example 1:
 
-![day6_0](jpg/day6_0.jpg)
+![day6_0](jpg/day6_0.png)
 
 ```text
 Input: root = [1,2,3,4,5,null,7]
@@ -167,4 +168,3 @@ Explanation: Given the above binary tree (Figure A), your function should popula
 * Constraints:
   * The number of nodes in the given tree is less than 6000.
   * -100 <= node.val <= 100
-  
