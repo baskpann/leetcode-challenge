@@ -7,7 +7,5 @@ class Solution {
         int rDepth = maxDepth(root.right);
         
         return (lDepth > rDepth) ? lDepth + 1 : rDepth + 1; 
-        
-        
     }
 }
