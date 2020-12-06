@@ -1,4 +1,4 @@
-# leet-dec-challenge
+# leetcode-december-challenge
 
 [leetcode](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/)  
 This repo contains solution to the problems in LeetCode December Challenge.
