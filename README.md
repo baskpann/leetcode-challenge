@@ -137,3 +137,34 @@ Output: false
   * flowerbed[i] is 0 or 1.
   * There are no two adjacent flowers in flowerbed.
   * 0 <= n <= flowerbed.length
+
+## Day 6
+
+* Problem link [link](https://leetcode.com/explore/featured/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3556/)
+* Given a binary tree
+
+```c
+struct Node {
+  int val;
+  Node *left;
+  Node *right;
+  Node *next;
+}
+```
+
+* Populate each next pointer to point to its next right node. If there is no next right node, the next pointer should be set to NULL.
+* Initially, all next pointers are set to NULL.
+* Example 1:
+
+![day6_0](jpg/day6_0.jpg)
+
+```text
+Input: root = [1,2,3,4,5,null,7]
+Output: [1,#,2,3,#,4,5,7,#]
+Explanation: Given the above binary tree (Figure A), your function should populate each next pointer to point to its next right node, just like in Figure B. The serialized output is in level order as connected by the next pointers, with '#' signifying the end of each level.
+```
+
+* Constraints:
+  * The number of nodes in the given tree is less than 6000.
+  * -100 <= node.val <= 100
+  
