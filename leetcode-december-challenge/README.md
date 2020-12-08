@@ -9,7 +9,7 @@ This Challenge is beginner-friendly and available to both Premium and non-Premiu
 
 ## Day 1
 
-* Problem link [link](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3551/)
+* Problem [link](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3551/)
 * Given the root of a binary tree, return its maximum depth.
 * A binary tree's maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
 * Solution [link](SolutionDay1.java)
@@ -35,13 +35,13 @@ Output: 2
 
 ## Day 2
 
-* Problem link [link](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3552/)
+* Problem [link](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3552/)
 * Given a singly linked list, return a random node's value from the linked list. Each node must have the same probability of being chosen.
 * Solution [link](SolutionDay2.java)
 * Example:
 
 ```text
-// Init a singly linked list [1,2,3].
+// Init a singly linked list [1,2,3].?
 ListNode head = new ListNode(1);
 head.next = new ListNode(2);
 head.next.next = new ListNode(3);
@@ -53,7 +53,7 @@ solution.getRandom();
 
 ## Day 3
 
-* Problem link [link](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3553/)
+* Problem [link](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3553/)
 * Given the root of a binary search tree, rearrange the tree in in-order so that the leftmost node in the tree is now the root of the tree, and every node has no left child and only one right child.
 * Solution [link](SolutionDay3.java)
 * Example 1:  
@@ -80,7 +80,7 @@ Output: [1,null,5,null,7]
 
 ## Day 4
 
-* Problem link [link](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3554/)
+* Problem [link](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3554/)
 * Given two positive integers n and k.
 * A factor of an integer n is defined as an integer i where n % i == 0.
 * Consider a list of all factors of n sorted in ascending order, return the kth factor in this list or return -1 if n has less than k factors.
@@ -114,7 +114,7 @@ Explanation: Factors list is [1, 2, 4], there is only 3 factors. We should retur
 
 ## Day 5
 
-* Problem link [link](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3554/)
+* Problem [link](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3554/)
 * You have a long flowerbed in which some of the plots are planted, and some are not. However, flowers cannot be planted in adjacent plots.
 * Given an integer array flowerbed containing 0's and 1's, where 0 means empty and 1 means not empty, and an integer n, return if n new flowers can be planted in the flowerbed without violating the no-adjacent-flowers rule.
 * Solution [link](SolutionDay5.java)
@@ -140,7 +140,7 @@ Output: false
 
 ## Day 6
 
-* Problem link [link](https://leetcode.com/explore/featured/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3556/)
+* Problem [link](https://leetcode.com/explore/featured/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3556/)
 * Given a binary tree
 
 ```c
@@ -154,7 +154,7 @@ struct Node {
 
 * Populate each next pointer to point to its next right node. If there is no next right node, the next pointer should be set to NULL.
 * Initially, all next pointers are set to NULL.
-* Solution link [link](SolutionDay6.java)
+* Solution [link](SolutionDay6.java)
 * Example 1:
 
 ![day6_0](jpg/day6_0.png)
@@ -168,3 +168,56 @@ Explanation: Given the above binary tree (Figure A), your function should popula
 * Constraints:
   * The number of nodes in the given tree is less than 6000.
   * -100 <= node.val <= 100
+
+## Day 7
+
+* Problem [link](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3557/)
+* Given a positive integer n, generate an n x n matrix filled with elements from 1 to n2 in spiral order.
+* Solution [link](SolutionDay7.java)
+* Example 1:
+
+![day7](https://assets.leetcode.com/uploads/2020/11/13/spiraln.jpg)
+
+```text
+Input: n = 3
+Output: [[1,2,3],[8,9,4],[7,6,5]]
+```
+
+* Example 2:
+
+```text
+Input: n = 1
+Output: [[1]]
+ ```
+
+* Constraints:
+  * 1 <= n <= 20
+
+## Day 8
+
+* Problem [link](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/570/week-2-december-8th-december-14th/3559/)
+* You are given a list of songs where the ith song has a duration of time[i] seconds.
+* Return the number of pairs of songs for which their total duration in seconds is divisible by 60. Formally, we want the number of indices i, j such that i < j with (time[i] + time[j]) % 60 == 0.
+* Solution [link](SolutionDay8.java)
+* Example 1:
+
+```text
+Input: time = [30,20,150,100,40]
+Output: 3
+Explanation: Three pairs have a total duration divisible by 60:
+(time[0] = 30, time[2] = 150): total duration 180
+(time[1] = 20, time[3] = 100): total duration 120
+(time[1] = 20, time[4] = 40): total duration 60
+```
+
+* Example 2:
+
+```text
+Input: time = [60,60,60]
+Output: 3
+Explanation: All three pairs have a total duration of 120, which is divisible by 60.
+```
+
+* Constraints:
+  * 1 <= time.length <= 6 * 104
+  * 1 <= time[i] <= 500
