@@ -224,7 +224,7 @@ Explanation: All three pairs have a total duration of 120, which is divisible by
 
 ## Day 9
 
-* Problem [link]()
+* Problem [link](https://leetcode.com/explore/featured/card/december-leetcoding-challenge/570/week-2-december-8th-december-14th/3560/)
 * Implement the BSTIterator class that represents an iterator over the in-order traversal of a binary search tree (BST):
 
 * BSTIterator(TreeNode root) Initializes an object of the BSTIterator class. The root of the BST is given as part of the constructor. The pointer should be initialized to a non-existent number smaller than any element in the BST.
@@ -233,10 +233,13 @@ Explanation: All three pairs have a total duration of 120, which is divisible by
 * Notice that by initializing the pointer to a non-existent smallest number, the first call to next() will return the smallest element in the BST.
 
 * You may assume that next() calls will always be valid. That is, there will be at least a next number in the in-order traversal when next() is called.
+* Solution [link](SolutionDay9.java)
 
  
 
 * Example 1:
+
+![day9](https://assets.leetcode.com/uploads/2018/12/25/bst-tree.png) 
 
 ```text
 Input
