@@ -9,13 +9,13 @@ This Challenge is beginner-friendly and available to both Premium and non-Premiu
 
 ## Day 1
 
-* Problem [link](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3551/)
+* Problem [Maximum Depth of Binary Tree](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3551/)
 * Given the root of a binary tree, return its maximum depth.
 * A binary tree's maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
 * Solution [link](SolutionDay1.java)
 * Example 1:
 
-![day1](jpg/day1.jpg)
+![day1](https://assets.leetcode.com/uploads/2020/11/26/tmp-tree.jpg)
 
 ```text
 Input: root = [3,9,20,null,null,15,7]
@@ -35,7 +35,7 @@ Output: 2
 
 ## Day 2
 
-* Problem [link](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3552/)
+* Problem [Linked List Random Node](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3552/)
 * Given a singly linked list, return a random node's value from the linked list. Each node must have the same probability of being chosen.
 * Solution [link](SolutionDay2.java)
 * Example:
@@ -53,12 +53,12 @@ solution.getRandom();
 
 ## Day 3
 
-* Problem [link](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3553/)
+* Problem [Increasing Order Search Tree](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3553/)
 * Given the root of a binary search tree, rearrange the tree in in-order so that the leftmost node in the tree is now the root of the tree, and every node has no left child and only one right child.
 * Solution [link](SolutionDay3.java)
 * Example 1:  
 
-![day3_0](jpg/day3.jpg)
+![day3_0](https://assets.leetcode.com/uploads/2020/11/17/ex1.jpg)
 
 ```text
 Input: root = [5,3,6,2,4,null,8,1,null,null,null,7,9]
@@ -67,7 +67,7 @@ Output: [1,null,2,null,3,null,4,null,5,null,6,null,7,null,8,null,9]
 
 * Example 2:
 
-![day3_1](jpg/day3_1.jpg)
+![day3_1](https://assets.leetcode.com/uploads/2020/11/17/ex2.jpg)
 
 ```text
 Input: root = [5,1,7]
@@ -80,7 +80,7 @@ Output: [1,null,5,null,7]
 
 ## Day 4
 
-* Problem [link](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3554/)
+* Problem [The kth Factor of n](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3554/)
 * Given two positive integers n and k.
 * A factor of an integer n is defined as an integer i where n % i == 0.
 * Consider a list of all factors of n sorted in ascending order, return the kth factor in this list or return -1 if n has less than k factors.
@@ -114,7 +114,7 @@ Explanation: Factors list is [1, 2, 4], there is only 3 factors. We should retur
 
 ## Day 5
 
-* Problem [link](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3554/)
+* Problem [Can Place Flowers](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3554/)
 * You have a long flowerbed in which some of the plots are planted, and some are not. However, flowers cannot be planted in adjacent plots.
 * Given an integer array flowerbed containing 0's and 1's, where 0 means empty and 1 means not empty, and an integer n, return if n new flowers can be planted in the flowerbed without violating the no-adjacent-flowers rule.
 * Solution [link](SolutionDay5.java)
@@ -140,7 +140,7 @@ Output: false
 
 ## Day 6
 
-* Problem [link](https://leetcode.com/explore/featured/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3556/)
+* Problem [Populating Next Right Pointers in Each Node II](https://leetcode.com/explore/featured/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3556/)
 * Given a binary tree
 
 ```c
@@ -157,7 +157,7 @@ struct Node {
 * Solution [link](SolutionDay6.java)
 * Example 1:
 
-![day6_0](jpg/day6_0.png)
+![day6_0](https://assets.leetcode.com/uploads/2019/02/15/117_sample.png)
 
 ```text
 Input: root = [1,2,3,4,5,null,7]
@@ -171,7 +171,7 @@ Explanation: Given the above binary tree (Figure A), your function should popula
 
 ## Day 7
 
-* Problem [link](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3557/)
+* Problem [Spiral Matrix II](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3557/)
 * Given a positive integer n, generate an n x n matrix filled with elements from 1 to n2 in spiral order.
 * Solution [link](SolutionDay7.java)
 * Example 1:
@@ -195,7 +195,7 @@ Output: [[1]]
 
 ## Day 8
 
-* Problem [link](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/570/week-2-december-8th-december-14th/3559/)
+* Problem [Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/570/week-2-december-8th-december-14th/3559/)
 * You are given a list of songs where the ith song has a duration of time[i] seconds.
 * Return the number of pairs of songs for which their total duration in seconds is divisible by 60. Formally, we want the number of indices i, j such that i < j with (time[i] + time[j]) % 60 == 0.
 * Solution [link](SolutionDay8.java)
@@ -224,22 +224,17 @@ Explanation: All three pairs have a total duration of 120, which is divisible by
 
 ## Day 9
 
-* Problem [link](https://leetcode.com/explore/featured/card/december-leetcoding-challenge/570/week-2-december-8th-december-14th/3560/)
+* Problem [Binary Search Tree Iterator](https://leetcode.com/explore/featured/card/december-leetcoding-challenge/570/week-2-december-8th-december-14th/3560/)
 * Implement the BSTIterator class that represents an iterator over the in-order traversal of a binary search tree (BST):
-
-* BSTIterator(TreeNode root) Initializes an object of the BSTIterator class. The root of the BST is given as part of the constructor. The pointer should be initialized to a non-existent number smaller than any element in the BST.
-* boolean hasNext() Returns true if there exists a number in the traversal to the right of the pointer, otherwise returns false.
-* int next() Moves the pointer to the right, then returns the number at the pointer.
+  * BSTIterator(TreeNode root) Initializes an object of the BSTIterator class. The root of the BST is given as part of the constructor. The pointer should be initialized to a non-existent number smaller than any element in the BST.
+  * boolean hasNext() Returns true if there exists a number in the traversal to the right of the pointer, otherwise returns false.
+  * int next() Moves the pointer to the right, then returns the number at the pointer.
 * Notice that by initializing the pointer to a non-existent smallest number, the first call to next() will return the smallest element in the BST.
-
 * You may assume that next() calls will always be valid. That is, there will be at least a next number in the in-order traversal when next() is called.
 * Solution [link](SolutionDay9.java)
-
- 
-
 * Example 1:
 
-![day9](https://assets.leetcode.com/uploads/2018/12/25/bst-tree.png) 
+![day9](https://assets.leetcode.com/uploads/2018/12/25/bst-tree.png)
 
 ```text
 Input
@@ -266,3 +261,40 @@ bSTIterator.hasNext(); // return False
   * The number of nodes in the tree is in the range [1, 105].
   * 0 <= Node.val <= 106
   * At most 105 calls will be made to hasNext, and next.
+
+## Day 10
+
+* Problem [Valid Mountain Array](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/570/week-2-december-8th-december-14th/3561/)
+* Given an array of integers arr, return true if and only if it is a valid mountain array.
+* Recall that arr is a mountain array if and only if:
+  * There exists some i with 0 < i < arr.length - 1 such that:
+  * arr.length >= 3
+    * arr[0] < arr[1] < ... < arr[i - 1] < A[i]
+    * arr[i] > arr[i + 1] > ... > arr[arr.length - 1]
+
+![day10_0](https://assets.leetcode.com/uploads/2019/10/20/hint_valid_mountain_array.png)
+
+* Example 1:
+
+```text
+Input: arr = [2,1]
+Output: false
+```
+
+* Example 2:
+
+```text
+Input: arr = [3,5,5]
+Output: false
+```
+
+* Example 3:
+
+```text
+Input: arr = [0,3,2,1]
+Output: true
+```
+
+* Constraints:
+  * 1 <= arr.length <= 10^4
+  * 0 <= arr[i] <= 10^4
