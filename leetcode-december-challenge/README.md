@@ -30,7 +30,7 @@ Output: 2
 ```
 
 * Constraints:  
-  * The number of nodes in the tree is in the range [0, 104].
+  * The number of nodes in the tree is in the range [0, 10<sup>4</sup>].
   * -100 <= Node.val <= 100
 
 ## Day 2
@@ -133,7 +133,7 @@ Output: false
 ```
 
 * Constraints:
-  * 1 <= flowerbed.length <= 2 * 104
+  * 1 <= flowerbed.length <= 2 * 10<sup>4</sup>
   * flowerbed[i] is 0 or 1.
   * There are no two adjacent flowers in flowerbed.
   * 0 <= n <= flowerbed.length
@@ -219,7 +219,7 @@ Explanation: All three pairs have a total duration of 120, which is divisible by
 ```
 
 * Constraints:
-  * 1 <= time.length <= 6 * 104
+  * 1 <= time.length <= 6 * 10<sup>4</sup>
   * 1 <= time[i] <= 500
 
 ## Day 9
@@ -271,6 +271,7 @@ bSTIterator.hasNext(); // return False
   * arr.length >= 3
     * arr[0] < arr[1] < ... < arr[i - 1] < A[i]
     * arr[i] > arr[i + 1] > ... > arr[arr.length - 1]
+* Solution [link](SolutionDay10.java)
 
 ![day10_0](https://assets.leetcode.com/uploads/2019/10/20/hint_valid_mountain_array.png)
 
@@ -296,5 +297,91 @@ Output: true
 ```
 
 * Constraints:
-  * 1 <= arr.length <= 10^4
-  * 0 <= arr[i] <= 10^4
+  * 1 <= arr.length <= 10<sup>4</sup>
+  * 0 <= arr[i] <= 10<sup>4</sup>
+
+## Day 11
+
+* Problem [Remove Duplicates from Sorted Array II](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/570/week-2-december-8th-december-14th/3562/)
+* Given a sorted array nums, remove the duplicates in-place such that duplicates appeared at most twice and return the new length.
+* Do not allocate extra space for another array; you must do this by modifying the input array in-place with O(1) extra memory.
+* Clarification:
+* Confused why the returned value is an integer, but your answer is an array?
+* Note that the input array is passed in by reference, which means a modification to the input array will be known to the caller.  
+Internally you can think of this:
+
+```text
+// nums is passed in by reference. (i.e., without making a copy)
+int len = removeDuplicates(nums);
+
+// any modification to nums in your function would be known by the caller.
+// using the length returned by your function, it prints the first len elements.
+for (int i = 0; i < len; i++) {
+    print(nums[i]);
+}
+```
+
+* Solution [link](SolutionDay11.java)
+* Example 1:
+
+```text
+Input: nums = [1,1,1,2,2,3]
+Output: 5, nums = [1,1,2,2,3]
+Explanation: Your function should return length = 5, with the first five elements of nums being 1, 1, 2, 2 and 3 respectively. It doesn't matter what you leave beyond the returned length.
+```
+
+* Example 2:
+
+```text
+Input: nums = [0,0,1,1,1,1,2,3,3]
+Output: 7, nums = [0,0,1,1,2,3,3]
+Explanation: Your function should return length = 7, with the first seven elements of nums being modified to 0, 0, 1, 1, 2, 3 and 3 respectively. It doesn't matter what values are set beyond the returned length.
+```
+
+* Constraints:
+  * 0 <= nums.length <= 3 * 10<sup>4</sup>
+  * -10<sup>4</sup> <= nums[i] <= 10<sup>4</sup>
+  * nums is sorted in ascending order.
+
+## Day 12
+
+* Problem [Smallest Subtree with all the Deepest Nodes](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/570/week-2-december-8th-december-14th/3563/)
+* Given the root of a binary tree, the depth of each node is the shortest distance to the root.
+* Return the smallest subtree such that it contains all the deepest nodes in the original tree.
+* A node is called the deepest if it has the largest depth possible among any node in the entire tree.
+* The subtree of a node is tree consisting of that node, plus the set of all descendants of that node.  
+
+Note: This question is the same as [1123:](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)
+* Solution [link](SolutionDay12.java)
+* Example 1:
+
+![day12](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/07/01/sketch1.png)
+
+```text
+Input: root = [3,5,1,6,2,0,8,null,null,7,4]
+Output: [2,7,4]
+Explanation: We return the node with value 2, colored in yellow in the diagram.
+The nodes coloured in blue are the deepest nodes of the tree.
+Notice that nodes 5, 3 and 2 contain the deepest nodes in the tree but node 2 is the smallest subtree among them, so we return it.
+```
+
+* Example 2:
+
+```text
+Input: root = [1]
+Output: [1]
+Explanation: The root is the deepest node in the tree.
+```
+
+* Example 3:
+
+```text
+Input: root = [0,1,3,null,2]
+Output: [2]
+Explanation: The deepest node in the tree is 2, the valid subtrees are the subtrees of nodes 2, 1 and 0 but the subtree of node 2 is the smallest.
+ ```
+
+* Constraints:
+  * The number of nodes in the tree will be in the range [1, 500].
+  * 0 <= Node.val <= 500
+  * The values of the nodes in the tree are unique.
