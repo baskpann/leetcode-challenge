@@ -385,3 +385,22 @@ Explanation: The deepest node in the tree is 2, the valid subtrees are the subtr
   * The number of nodes in the tree will be in the range [1, 500].
   * 0 <= Node.val <= 500
   * The values of the nodes in the tree are unique.
+
+## Day 13
+
+* Problem [Burst Balloons](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/570/week-2-december-8th-december-14th/3564/)
+* Given n balloons, indexed from 0 to n-1. Each balloon is painted with a number on it represented by array nums. You are asked to burst all the balloons. If the you burst balloon i you will get nums[left] * nums[i] * nums[right] coins. Here left and right are adjacent indices of i. After the burst, the left and right then becomes adjacent.
+* Find the maximum coins you can collect by bursting the balloons wisely.  
+
+Note:
+* You may imagine nums[-1] = nums[n] = 1. They are not real therefore you can not burst them.
+* 0 ≤ n ≤ 500, 0 ≤ nums[i] ≤ 100
+* Solution [link](SolutionDay13.java)
+* Example:
+
+```text
+Input: [3,1,5,8]
+Output: 167 
+Explanation: nums = [3,1,5,8] --> [3,5,8] -->   [3,8]   -->  [8]  --> []
+             coins =  3*1*5      +  3*5*8    +  1*3*8      + 1*8*1   = 167
+```
