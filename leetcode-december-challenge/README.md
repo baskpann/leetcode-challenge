@@ -404,3 +404,29 @@ Output: 167
 Explanation: nums = [3,1,5,8] --> [3,5,8] -->   [3,8]   -->  [8]  --> []
              coins =  3*1*5      +  3*5*8    +  1*3*8      + 1*8*1   = 167
 ```
+
+## Day 14
+
+* Problem [Palindrome Partitioning](https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/570/week-2-december-8th-december-14th/3565/)
+Given a string s, partition s such that every substring of the partition is a palindrome. Return all possible palindrome partitioning of s.
+
+* A palindrome string is a string that reads the same backward as forward.
+
+* Solution [link](SolutionDay14.java)
+* Example 1:
+
+```text
+Input: s = "aab"
+Output: [["a","a","b"],["aa","b"]]
+```
+
+* Example 2:
+
+```text
+Input: s = "a"
+Output: [["a"]]
+```
+
+* Constraints:
+  * 1 <= s.length <= 16
+  * s contains only lowercase English letters.
